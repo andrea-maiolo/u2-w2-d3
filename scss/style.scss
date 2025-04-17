@@ -1,9 +1,9 @@
+@import "partials/fonts";
 @import "partials/resets";
 @import "partials/spacings";
 @import "partials/mixin";
 @import "partials/variables";
 @import "partials/buttons";
-@import "partials/fonts";
 
 header {
   display: flex;
@@ -24,4 +24,8 @@ header {
 
 h1 {
   @include title-big();
+}
+
+.test {
+  @include floating(10px, 10px 10px 30px rgba(0 0 0 /0), 4px solid green);
 }
