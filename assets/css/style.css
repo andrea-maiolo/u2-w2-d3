@@ -167,18 +167,21 @@ p {
   background-color: #0e6cff;
   border: 2px solid #3e89ff;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-orange {
   background-color: #ff8700;
   border: 2px solid #ff9f33;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-green {
   background-color: #4caf50;
   border: 2px solid #6fc072;
   color: #fff;
+  cursor: pointer;
 }
 
 header {
@@ -188,6 +191,7 @@ header {
 
 .hero {
   display: flex;
+  background-color: #640fc5;
   justify-content: space-between;
 }
 
@@ -207,6 +211,19 @@ h1 {
 
 .test {
   border-radius: 10px;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
   border: 4px solid green;
+}
+
+.img-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-grid > div > img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0;
+  border: 2px solid rgb(228, 89, 89);
 }/*# sourceMappingURL=style.css.map */

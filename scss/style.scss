@@ -12,6 +12,7 @@ header {
 
 .hero {
   display: flex;
+  background-color: $hero-color;
   justify-content: space-between;
 }
 
@@ -27,5 +28,16 @@ h1 {
 }
 
 .test {
-  @include floating(10px, 10px 10px 30px rgba(0 0 0 /0), 4px solid green);
+  @include floating(10px, 10px 10px 30px rgba(0 0 0 /0.6), 4px solid green);
+}
+
+.img-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-grid > div > img {
+  width: 100%;
+  @include floating(10px, 0, 2px solid rgb(228, 89, 89));
 }
