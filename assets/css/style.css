@@ -168,6 +168,7 @@ p {
   border: 2px solid #3e89ff;
   color: #fff;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-orange {
@@ -175,6 +176,7 @@ p {
   border: 2px solid #ff9f33;
   color: #fff;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-green {
@@ -182,24 +184,38 @@ p {
   border: 2px solid #6fc072;
   color: #fff;
   cursor: pointer;
+  font-weight: 600;
 }
 
+@keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;
+  animation: slideIn 1s 0.5s backwards;
 }
 
 .hero {
   display: flex;
   background-color: #640fc5;
   justify-content: space-between;
+  animation: slideIn 1s 0.7s backwards;
 }
 
 .hero-text {
   display: flex;
+  color: #f4f4f4;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 h1 {
@@ -220,10 +236,13 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
+.img-grid > div {
+  display: flex;
+}
 .img-grid > div > img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
   border: 2px solid rgb(228, 89, 89);
+  animation: slideIn 1s 1s backwards;
 }/*# sourceMappingURL=style.css.map */

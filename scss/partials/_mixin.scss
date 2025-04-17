@@ -12,3 +12,17 @@
   box-shadow: $shadow;
   border: $border;
 }
+
+// @mixin slideIn($duration, $start, $end, $delay, $name) {
+//   @keyframes slideIn-#{$name} {
+//     from {
+//       transform: translateX($start);
+//       opacity: 0;
+//     }
+//     to {
+//       transform: translateY($end);
+//       opacity: 1;
+//     }
+//   }
+//   animation: slideIN-#{$name }($duration, $start, $end, $delay);
+// }
