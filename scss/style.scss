@@ -1,0 +1,27 @@
+@import "partials/resets";
+@import "partials/spacings";
+@import "partials/mixin";
+@import "partials/variables";
+@import "partials/buttons";
+@import "partials/fonts";
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  @include title-big();
+}

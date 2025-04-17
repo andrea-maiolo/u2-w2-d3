@@ -1,0 +1,205 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.padding-block-sm {
+  padding-block: 10px;
+}
+
+.margin-block-sm {
+  margin-block: 10px;
+}
+
+.padding-inline-sm {
+  padding-inline: 10px;
+}
+
+.margin-inline-sm {
+  margin-inline: 10px;
+}
+
+.padding-sm {
+  padding: 10px;
+}
+
+.margin-sm {
+  margin: 10px;
+}
+
+.padding-block-normal {
+  padding-block: 16px;
+}
+
+.margin-block-normal {
+  margin-block: 16px;
+}
+
+.padding-inline-normal {
+  padding-inline: 16px;
+}
+
+.margin-inline-normal {
+  margin-inline: 16px;
+}
+
+.padding-normal {
+  padding: 16px;
+}
+
+.margin-normal {
+  margin: 16px;
+}
+
+.padding-block-md {
+  padding-block: 20px;
+}
+
+.margin-block-md {
+  margin-block: 20px;
+}
+
+.padding-inline-md {
+  padding-inline: 20px;
+}
+
+.margin-inline-md {
+  margin-inline: 20px;
+}
+
+.padding-md {
+  padding: 20px;
+}
+
+.margin-md {
+  margin: 20px;
+}
+
+.padding-block-lg {
+  padding-block: 30px;
+}
+
+.margin-block-lg {
+  margin-block: 30px;
+}
+
+.padding-inline-lg {
+  padding-inline: 30px;
+}
+
+.margin-inline-lg {
+  margin-inline: 30px;
+}
+
+.padding-lg {
+  padding: 30px;
+}
+
+.margin-lg {
+  margin: 30px;
+}
+
+.padding-block-xl {
+  padding-block: 40px;
+}
+
+.margin-block-xl {
+  margin-block: 40px;
+}
+
+.padding-inline-xl {
+  padding-inline: 40px;
+}
+
+.margin-inline-xl {
+  margin-inline: 40px;
+}
+
+.padding-xl {
+  padding: 40px;
+}
+
+.margin-xl {
+  margin: 40px;
+}
+
+.padding-block-xx {
+  padding-block: 50px;
+}
+
+.margin-block-xx {
+  margin-block: 50px;
+}
+
+.padding-inline-xx {
+  padding-inline: 50px;
+}
+
+.margin-inline-xx {
+  margin-inline: 50px;
+}
+
+.padding-xx {
+  padding: 50px;
+}
+
+.margin-xx {
+  margin: 50px;
+}
+
+.btn-blue {
+  background-color: #0e6cff;
+  border: 2px solid #3e89ff;
+  color: #fff;
+}
+
+.btn-orange {
+  background-color: #ff8700;
+  border: 2px solid #ff9f33;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  border: 2px solid #6fc072;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}/*# sourceMappingURL=style.css.map */

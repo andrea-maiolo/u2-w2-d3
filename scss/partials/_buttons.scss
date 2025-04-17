@@ -1,0 +1,13 @@
+$colors: (
+  blue: $primary,
+  orange: $secondary,
+  green: $tertiary,
+);
+
+@each $key, $color in $colors {
+  .btn-#{$key} {
+    background-color: $color;
+    border: 2px solid scale-color($color, $lightness: 20%);
+    color: #fff;
+  }
+}

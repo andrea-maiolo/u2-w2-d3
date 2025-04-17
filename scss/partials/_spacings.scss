@@ -1,0 +1,26 @@
+$directions: block, inline;
+$size: (
+  "sm": 10px,
+  "normal": 16px,
+  "md": 20px,
+  "lg": 30px,
+  "xl": 40px,
+  "xx": 50px,
+);
+
+@each $key, $value in $size {
+  @each $dir in $directions {
+    .padding-#{$dir}-#{$key} {
+      padding-#{$dir}: $value;
+    }
+    .margin-#{$dir}-#{$key} {
+      margin-#{$dir}: $value;
+    }
+  }
+  .padding-#{$key} {
+    padding: $value;
+  }
+  .margin-#{$key} {
+    margin: $value;
+  }
+}
